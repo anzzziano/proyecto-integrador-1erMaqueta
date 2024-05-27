@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Granja Completa</title>
+</head>
+<body>
+  <h1>Frutas</h1>
+  <ul>
+    <% frutas.forEach(item => { %>
+      <li><%= item.nombre %> - <%= item.precio %></li>
+    <% }); %>
+  </ul>
+
+  <h1>Verduras</h1>
+  <ul>
+    <% verduras.forEach(item => { %>
+      <li><%= item.nombre %> - <%= item.precio %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
